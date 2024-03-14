@@ -1,5 +1,57 @@
-t = 10
-b = 20
-h = 5
-
-print(str((t + b)* h /2) + "㎠" )
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMBCp8BbHYIgg9dBRTuZRCX",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Tokeshi-Wakana/python-basic-kadai/blob/main/Kadai_005\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "t = 10\n",
+        "b = 20\n",
+        "h = 5\n",
+        "\n",
+        "print(str((t + b)* h /2) + \"㎠\" )"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MEsA1v0Nj2Gh",
+        "outputId": "5785060a-1e7c-413b-d6fb-28931aee4637"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "75.0㎠\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
